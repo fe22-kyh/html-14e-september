@@ -6,7 +6,7 @@
 
 ## Övningar
 
-1. [Web is fun](exercises/exercise_fun.md) - Basic syntax
+1. [Web is fun fun](exercises/exercise_fun.md) - Basic syntax
 2. [Yummy recipe](exercises/exercise_recipe.md) - Common tags
 3. [I can too](exercises/exercise_capable.md) - Cloning
 4. [Found all the errors?](exercises/exercise_attributes.md) - Attributes
