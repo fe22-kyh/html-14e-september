@@ -1,4 +1,4 @@
-![ada-lovelace](assets/ada_lovelace.png.png)
+![ada-lovelace](assets/ada_lovelace.png)
 # Ada Lovelace
 
 I denna övning ska du skapa en webbsida om Ada Lovelace, du finner lite längre en text du ska använda.
