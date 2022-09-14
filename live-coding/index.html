@@ -1,0 +1,97 @@
+<!-- För att auto generera html boilerplate: "!" -> enter -->
+<!DOCTYPE html>
+<!-- html 5 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: navy;
+        color: white;
+      }
+
+      footer {
+        background-color: lightgrey;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- emmet genererar kod -->
+    <!-- div>p*10>lorem20 https://docs.emmet.io/cheat-sheet/ -->
+
+    <!-- Semantic tags: header, nav, article, section, main, aside, footer -->
+    <header>
+      <h1>Dogarty</h1>
+      <p>The afterlife of beforelife</p>
+    </header>
+
+    <nav>
+      <h3>Navigation</h3>
+      <a href="#">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Attributet "title" ger en text när du håller musen över bilden -->
+    <!-- Ordningen av attributen spelar ingen roll! -->
+    <img
+      alt="Picture of a dog"
+      title="Picture of a happy dog"
+      src="assets/dog_karsten.jpg"
+      width="300" />
+
+    <!-- article gäller vid återupprepning -->
+
+    <!-- 
+    Något som förklarar sidan centrala syfte. Använd main.
+    Main-taggen ska endast användas en gång för hela webapplikationen.
+   -->
+    <main>
+      <!-- <h2>Background</h2> -->
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Error esse eum aspernatur non quisquam rerum
+        voluptatibus vero ad ipsum deserunt.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Nulla dolorum magnam excepturi molestias
+        consequatur repellat rem nemo quidem facere
+        voluptatem!
+      </p>
+    </main>
+
+    <!-- Är det logiskt att ha en större rubrik? Använd section.-->
+    <section>
+      <h2>Services</h2>
+      <!-- ul -> unordered list -->
+      <!-- ol -> ordered list (numererad) -->
+      <ul>
+        <li>Daycare</li>
+        <li>Healthy diets</li>
+        <li>Long walks</li>
+      </ul>
+    </section>
+
+    <footer>
+      <h4>Kontakt information</h4>
+      <adress>
+        <p>
+          Contact us at
+          <a href="mailto:jakob.rolandsson@zocom.se">
+            email
+          </a>
+        </p>
+        <p>Call us at 342 3490823490</p>
+      </adress>
+    </footer>
+  </body>
+</html>
